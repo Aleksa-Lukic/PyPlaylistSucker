@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyplaylistsucker"
+version = "0.1.0"
+description = ""
+authors = ["Aleksa Lukic <65134116+Aleksa-Lukic@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "app", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytube = "^15.0.0"
+pendulum = "^3.0.0"
+byebyelogger = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
